@@ -303,14 +303,16 @@ html, body {
     -webkit-transition: 2s;
 }
 .a4 {
+    width: 100%;
+    height: 100%;
     text-align: center;
     font-size: 30px;
 }
 .a4 h3{
     font-size: 60px;
-    position: fixed;
+    position: absolute;
     bottom: 13%;
-    left: 65%;
+    left: 60%;
 }
 .a4 img {
     position: fixed;
