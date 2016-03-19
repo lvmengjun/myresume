@@ -111,15 +111,21 @@ html, body {
     transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     transition: 1s;
+    -webkit-transition: 1s;
 }
 #a0 p:nth-of-type(1){
     transition-delay: .5s;
+    -webkit-transition-delay: .5s;
+
 }
 #a0 p:nth-of-type(2){
     transition-delay: 1s;
+    -webkit-transition-delay: 1s;
 }
 #a0 p:nth-of-type(3){
     transition-delay:1.5s;
+    -webkit-transition-delay: 1.5s;
+
 }
 .a1{
     width: 100%;
@@ -178,6 +184,7 @@ html, body {
     -webkit-transform: none;
     transform: none;
     transition: 1s;
+    -webkit-transition: 1s;
 }
 #a1 p:nth-of-type(1){
      transition-delay: 1s;
@@ -228,6 +235,7 @@ html, body {
     transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     transition: 1s;
+    -webkit-transition: 1s;
 }
 #a2 h2{
     -webkit-animation: animations 2s ease-in-out forwards;
@@ -238,6 +246,7 @@ html, body {
     -webkit-transform: none;
     transform: none;
     transition: 2s;
+    -webkit-transition: 2s;
 }
 .a3{
     width: 100%;
@@ -291,6 +300,7 @@ html, body {
 #a4 img  {
     opacity: 1;
     transition: 3s;
+    -webkit-transition: 3s;
 }
 #a4 h3{
      -webkit-animation: swing 2s ;
