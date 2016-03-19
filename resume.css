@@ -111,21 +111,15 @@ html, body {
     transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     transition: 1s;
-    -webkit-transition: 1s;
 }
 #a0 p:nth-of-type(1){
     transition-delay: .5s;
-    -webkit-transition-delay: .5s;
-
 }
 #a0 p:nth-of-type(2){
     transition-delay: 1s;
-    -webkit-transition-delay: 1s;
 }
 #a0 p:nth-of-type(3){
     transition-delay:1.5s;
-    -webkit-transition-delay: 1.5s;
-
 }
 .a1{
     width: 100%;
@@ -155,6 +149,7 @@ html, body {
     font-size: 38px;
     overflow: hidden;
     word-wrap: break-word;
+
 }
 .a1 p:nth-of-type(1) {
     height: 130px;
@@ -174,33 +169,51 @@ html, body {
     left: 20%;
     top: 65%;
 }
-.a1 p{
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
-    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
-}
-#a1 p{
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-    transition: 1s;
-    -webkit-transition: 1s;
+#a1 span{
+    -webkit-animation: swing 2s infinite;
+    animation: swing 2s infinite;
 }
 #a1 p:nth-of-type(1){
-     transition-delay: 1s;
-    -webkit-transition-delay: 1s;
+     -webkit-animation:1s rollIn 1s ;
+     animation:1s rollIn 1s ;
  }
 #a1 p:nth-of-type(2){
-    transition-delay: 2s;
-    -webkit-transition-delay: 2s;
+    -webkit-animation:2s rollIn 1s ;
+    animation:2s rollIn 1s ;
 }
 #a1 p:nth-of-type(3){
-    transition-delay: 3s;
-    -webkit-transition-delay: 3s;
+    -webkit-animation:3s rollIn 1s ;
+    animation:3s rollIn 1s ;
 }
 #a1 p:nth-of-type(4){
-    transition-delay: 4s;
-    -webkit-transition-delay: 4s;
+    -webkit-animation:4s rollIn 1s ;
+    animation:4s rollIn 1s ;
+}
+@-webkit-keyframes rollIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%,0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes rollIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
 }
 .a2 {
     width: 460px;
@@ -227,26 +240,19 @@ html, body {
     position: fixed;
     bottom: 10%;
     left: 30%;
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
 }
 #a2 p {
     transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     transition: 1s;
-    -webkit-transition: 1s;
 }
 #a2 h2{
     -webkit-animation: animations 2s ease-in-out forwards;
     animation: animations 2s ease-in-out forwards;
 }
 #a2 img{
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-    transition: 2s;
-    -webkit-transition: 2s;
+    -webkit-animation: fadeInLeft 2s ;
+    animation: fadeInLeft 2s ;
 }
 .a3{
     width: 100%;
@@ -283,8 +289,6 @@ html, body {
     font-size: 30px;
 }
 .a4 h3{
-    width: 200px;
-    height: 100px;
     font-size: 60px;
     position: fixed;
     bottom: 10%;
@@ -300,7 +304,6 @@ html, body {
 #a4 img  {
     opacity: 1;
     transition: 3s;
-    -webkit-transition: 3s;
 }
 #a4 h3{
      -webkit-animation: swing 2s ;
@@ -438,5 +441,31 @@ html, body {
     to {
         -webkit-transform: rotate3d(0, 0, 1, 0deg);
         transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
     }
 }
