@@ -71,7 +71,7 @@ html, body {
     background: url(img/7.jpg) no-repeat;
 }
 #list li.zIndex {
-    z-index: 10;
+    z-index: 3;
 }
 .a0 {
     position: absolute;
