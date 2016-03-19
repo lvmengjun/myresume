@@ -29,7 +29,7 @@
           <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resume.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="2.3333333">
+                <state vertical-scroll-proportion="3.2083333">
                   <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
                   <folding />
                 </state>
@@ -43,8 +43,41 @@
           <file leaf-file-name="resume.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resume.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2928082">
-                  <caret line="275" column="19" selection-start-line="275" selection-start-column="19" selection-end-line="275" selection-end-column="19" />
+                <state vertical-scroll-proportion="3.796233">
+                  <caret line="325" column="0" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#2#36#0" expanded="false" />
+                    <element signature="e#48#108#0" expanded="false" />
+                    <element signature="e#115#294#0" expanded="false" />
+                    <element signature="e#303#425#0" expanded="false" />
+                    <element signature="e#434#596#0" expanded="false" />
+                    <element signature="e#606#881#0" expanded="false" />
+                    <element signature="e#888#926#0" expanded="false" />
+                    <element signature="e#936#1023#0" expanded="false" />
+                    <element signature="e#1046#1091#0" expanded="false" />
+                    <element signature="e#1114#1159#0" expanded="false" />
+                    <element signature="e#1182#1227#0" expanded="false" />
+                    <element signature="e#1250#1295#0" expanded="false" />
+                    <element signature="e#1318#1363#0" expanded="false" />
+                    <element signature="e#6153#7035#0" expanded="false" />
+                    <element signature="e#7036#7806#0" expanded="false" />
+                    <element signature="e#7807#8406#0" expanded="false" />
+                    <element signature="e#8301#8404#0" expanded="false" />
+                    <element signature="e#8407#8998#0" expanded="false" />
+                    <element signature="e#8779#8884#0" expanded="false" />
+                    <element signature="e#8999#9261#0" expanded="false" />
+                    <element signature="e#9174#9259#0" expanded="false" />
+                    <element signature="e#9262#9516#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/animate.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-19.166666">
+                  <caret line="1328" column="1" selection-start-line="1302" selection-start-column="0" selection-end-line="1328" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -60,8 +93,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animate.css" />
         <option value="$PROJECT_DIR$/resume.html" />
+        <option value="$PROJECT_DIR$/animate.css" />
         <option value="$PROJECT_DIR$/resume.css" />
       </list>
     </option>
@@ -179,10 +212,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15476191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -220,27 +253,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate.css">
+    <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33093524">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state vertical-scroll-proportion="3.2083333">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume.html">
+    <entry file="file://$PROJECT_DIR$/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3333333">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        <state vertical-scroll-proportion="-19.166666">
+          <caret line="1328" column="1" selection-start-line="1302" selection-start-column="0" selection-end-line="1328" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2928082">
-          <caret line="275" column="19" selection-start-line="275" selection-start-column="19" selection-end-line="275" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="3.796233">
+          <caret line="325" column="0" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+          <folding>
+            <element signature="e#2#36#0" expanded="false" />
+            <element signature="e#48#108#0" expanded="false" />
+            <element signature="e#115#294#0" expanded="false" />
+            <element signature="e#303#425#0" expanded="false" />
+            <element signature="e#434#596#0" expanded="false" />
+            <element signature="e#606#881#0" expanded="false" />
+            <element signature="e#888#926#0" expanded="false" />
+            <element signature="e#936#1023#0" expanded="false" />
+            <element signature="e#1046#1091#0" expanded="false" />
+            <element signature="e#1114#1159#0" expanded="false" />
+            <element signature="e#1182#1227#0" expanded="false" />
+            <element signature="e#1250#1295#0" expanded="false" />
+            <element signature="e#1318#1363#0" expanded="false" />
+            <element signature="e#6153#7035#0" expanded="false" />
+            <element signature="e#7036#7806#0" expanded="false" />
+            <element signature="e#7807#8406#0" expanded="false" />
+            <element signature="e#8301#8404#0" expanded="false" />
+            <element signature="e#8407#8998#0" expanded="false" />
+            <element signature="e#8779#8884#0" expanded="false" />
+            <element signature="e#8999#9261#0" expanded="false" />
+            <element signature="e#9174#9259#0" expanded="false" />
+            <element signature="e#9262#9516#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

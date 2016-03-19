@@ -14,7 +14,7 @@ html, body {
     left: 50%;
     top: 0;
     margin-left: -320px;
-    transform-origin: top; /*设置缩放的基准点是顶端的中心点*/
+    transform-origin: top;
     -webkit-transform-origin: top;
 }
 #loading{
@@ -260,7 +260,6 @@ html, body {
     position: fixed;
     bottom: 10%;
     left: 30%;
-    opacity: 0;
 }
 #a2 p {
     transform: translate(0, 0);
@@ -272,8 +271,8 @@ html, body {
     animation: animations 2s ease-in-out forwards;
 }
 #a2 img{
-    opacity: 1;
-    transition: 1s;
+    -webkit-animation: fadeInLeft 2s ;
+    animation: fadeInLeft 2s ;
 }
 .a3{
     width: 100%;
@@ -311,7 +310,7 @@ html, body {
     font-size: 60px;
     position: fixed;
     bottom: 13%;
-    left: 70%;
+    left: 65%;
 }
 .a4 img {
     position: fixed;
@@ -324,7 +323,6 @@ html, body {
     opacity: 1;
     transition: 3s;
 }
-
 #a4 h3{
      -webkit-animation: swing 2s ;
      animation: swing 2s ;
@@ -463,61 +461,29 @@ html, body {
         transform: rotate3d(0, 0, 1, 0deg);
     }
 }
-@-webkit-keyframes zoomIn {
+@-webkit-keyframes fadeInLeft {
     from {
         opacity: 0;
-        -webkit-transform: scale3d(.3, .3, .3);
-        transform: scale3d(.3, .3, .3);
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
     }
 
-    50% {
+    to {
         opacity: 1;
+        -webkit-transform: none;
+        transform: none;
     }
 }
-@keyframes zoomIn {
+@keyframes fadeInLeft {
     from {
         opacity: 0;
-        -webkit-transform: scale3d(.3, .3, .3);
-        transform: scale3d(.3, .3, .3);
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
     }
 
-    50% {
+    to {
         opacity: 1;
+        -webkit-transform: none;
+        transform: none;
     }
 }
-@-webkit-keyframes zoomInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
-        transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
-        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-    }
-
-    60% {
-        opacity: 1;
-        -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
-        transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
-        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-    }
-}
-
-@keyframes zoomInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
-        transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
-        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
-    }
-
-    60% {
-        opacity: 1;
-        -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
-        transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
-        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
-    }
-}
-
