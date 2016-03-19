@@ -259,6 +259,7 @@ html, body {
 .a2 img{
     position: fixed;
     bottom: 10%;
+    left: 30%;
     transform: translate(-600px, 0);
     -webkit-transform: translate(-600px, 0);
 }
@@ -274,12 +275,12 @@ html, body {
 #a2 img{
     transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
-    transition: 6s;
+    transition: 8s;
 }
 .a3 p{
     font-size: 30px;
     width: 300px;
-    height: 200px;
+    height: 150px;
     position: absolute;
 
 
@@ -290,7 +291,11 @@ html, body {
 }
 .a3 p:nth-child(2){
     left: 15%;
-    top:45%;
+    top:33%;
+}
+.a3 p:nth-child(3){
+    left: 28%;
+    top:58%;
 }
 #a3 p{
     transform: scale(1.2);
@@ -303,15 +308,15 @@ html, body {
     font-size: 30px;
 }
 .a4 h3{
-    font-size: 80px;
+    font-size: 60px;
     position: fixed;
-    bottom: 10%;
-    left: 38%;
+    bottom: 13%;
+    left: 70%;
 }
 .a4 img {
     position: fixed;
     right: 0;
-    top: 5%;
+    top: 0;
     opacity: 0;
 
 }
