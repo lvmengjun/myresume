@@ -310,9 +310,9 @@ html, body {
 }
 .a4 h3{
     font-size: 60px;
-    position: absolute;
-    bottom: 13%;
-    left: 60%;
+    position: fixed;
+    bottom: 10%;
+    right:  20%;
 }
 .a4 img {
     position: fixed;

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="43b32bf0-eca6-4533-a54b-4d562b267588" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume.css" afterPath="$PROJECT_DIR$/resume.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume.html" afterPath="$PROJECT_DIR$/resume.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myresume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,15 +59,15 @@
                     <element signature="e#1182#1227#0" expanded="false" />
                     <element signature="e#1250#1295#0" expanded="false" />
                     <element signature="e#1318#1363#0" expanded="false" />
-                    <element signature="e#6191#7073#0" expanded="false" />
-                    <element signature="e#7074#7844#0" expanded="false" />
-                    <element signature="e#7845#8444#0" expanded="false" />
-                    <element signature="e#8339#8442#0" expanded="false" />
-                    <element signature="e#8445#9036#0" expanded="false" />
-                    <element signature="e#8817#8922#0" expanded="false" />
-                    <element signature="e#9037#9299#0" expanded="false" />
-                    <element signature="e#9212#9297#0" expanded="false" />
-                    <element signature="e#9300#9554#0" expanded="false" />
+                    <element signature="e#6190#7072#0" expanded="false" />
+                    <element signature="e#7073#7843#0" expanded="false" />
+                    <element signature="e#7844#8443#0" expanded="false" />
+                    <element signature="e#8338#8441#0" expanded="false" />
+                    <element signature="e#8444#9035#0" expanded="false" />
+                    <element signature="e#8816#8921#0" expanded="false" />
+                    <element signature="e#9036#9298#0" expanded="false" />
+                    <element signature="e#9211#9296#0" expanded="false" />
+                    <element signature="e#9299#9553#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -287,15 +287,15 @@
             <element signature="e#1182#1227#0" expanded="false" />
             <element signature="e#1250#1295#0" expanded="false" />
             <element signature="e#1318#1363#0" expanded="false" />
-            <element signature="e#6191#7073#0" expanded="false" />
-            <element signature="e#7074#7844#0" expanded="false" />
-            <element signature="e#7845#8444#0" expanded="false" />
-            <element signature="e#8339#8442#0" expanded="false" />
-            <element signature="e#8445#9036#0" expanded="false" />
-            <element signature="e#8817#8922#0" expanded="false" />
-            <element signature="e#9037#9299#0" expanded="false" />
-            <element signature="e#9212#9297#0" expanded="false" />
-            <element signature="e#9300#9554#0" expanded="false" />
+            <element signature="e#6190#7072#0" expanded="false" />
+            <element signature="e#7073#7843#0" expanded="false" />
+            <element signature="e#7844#8443#0" expanded="false" />
+            <element signature="e#8338#8441#0" expanded="false" />
+            <element signature="e#8444#9035#0" expanded="false" />
+            <element signature="e#8816#8921#0" expanded="false" />
+            <element signature="e#9036#9298#0" expanded="false" />
+            <element signature="e#9211#9296#0" expanded="false" />
+            <element signature="e#9299#9553#0" expanded="false" />
           </folding>
         </state>
       </provider>
