@@ -274,7 +274,7 @@ html, body {
 #a2 img{
     transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
-    transition: 5s;
+    transition: 6s;
 }
 .a3 p{
     font-size: 30px;
@@ -305,7 +305,7 @@ html, body {
 .a4 h3{
     font-size: 80px;
     position: fixed;
-    bottom: 50%;
+    bottom: 10%;
     left: 38%;
 }
 .a4 img {
